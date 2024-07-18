@@ -169,7 +169,7 @@ sup {
 }
 #es-vichy.es-vichy .es-info__img {
 	display: block;
-	max-width: 100%;
+	max-width: 90px;
 }
 #es-vichy.es-vichy .es-info__features {
 	display: flex;
@@ -220,6 +220,10 @@ sup {
 }
 #es-vichy.es-vichy .es-use__container {
 	padding: 20px 60px;
+}
+
+#es-vichy.es-vichy .es-use__img {
+	max-width: 100%;
 }
 #es-vichy.es-vichy .es-use__item {
 	position: relative;
@@ -348,6 +352,12 @@ sup {
 	display: block;
 	max-width: 100%;
 }
+
+#es-vichy.es-vichy .es-benefits__img--2 {
+	margin: 0 auto;
+	display: block;
+	max-width: 78%;
+}
 #es-vichy.es-vichy .es-benefits__item {
 	display: flex;
 	flex-direction: column;
@@ -393,6 +403,7 @@ sup {
 	align-items: center;
 	padding: 20px 60px;
 }
+
 #es-vichy.es-vichy .es-cross {
 	padding: 0 16px;
 }
@@ -521,6 +532,11 @@ sup {
 	#es-vichy.es-vichy .es-banner__img {
 		width: 530px;
 	}
+	#es-vichy.es-vichy .es-benefits__img--2 {
+		margin: 0 auto;
+		display: block;
+		max-width: 95%;
+	}
 }
 @media screen and (min-width: 560px) {
 	#es-vichy.es-vichy .es-ingr__single {
@@ -539,12 +555,18 @@ sup {
 		justify-content: flex-start;
 		max-width: 300px;
 	}
+	#es-vichy.es-vichy .es-benefits__img--2 {
+		margin: 0 auto;
+		display: block;
+		max-width: 78%;
+	}
 	#es-vichy.es-vichy .es-use__content {
 		display: flex;
 		align-items: center;
 		max-width: 100%;
 		flex-wrap: wrap;
 	}
+
 }
 @media screen and (min-width: 650px) {
 	#es-vichy.es-vichy .es-kv {
@@ -597,6 +619,11 @@ sup {
 	}
 	#es-vichy.es-vichy .es-ingr__img--1 {
 		max-height: 40%;
+	}
+	#es-vichy.es-vichy .es-benefits__img--2 {
+		margin: 0 auto;
+		display: block;
+		max-width: 100%;
 	}
 }
 @media screen and (min-width: 725px) {
